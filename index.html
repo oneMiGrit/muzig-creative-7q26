@@ -133,11 +133,6 @@ footer {
   background: #f4f8ff;
 }
 
-/* 내용이 없는 섹션 제거 */
-section:empty {
-  display: none;
-}
-
 section > .container:empty {
   display: none;
 }
@@ -154,6 +149,9 @@ section:has(> .container:only-child:empty) {
 
 .keep-word {
   white-space: nowrap;
+}  
+#about {
+  padding: 64px 0;
 }  
 </style></head><body>
 <header class="top"><div class="container top-inner"><a class="logo" href="#top">MUZIG <i>AI</i> <span style="font-size:11px;font-weight:600;color:#777">/ CREATIVE WORKS</span></a><nav class="nav" aria-label="주요 메뉴"><a href="#poster">포스터</a><a href="#cards">카드뉴스</a><a href="#videos">영상 3편</a><a href="#longform">롱폼 1편</a><a href="#muzigvideo">알아 뮤직비디오</a></nav></div></header>
@@ -218,7 +216,7 @@ section:has(> .container:only-child:empty) {
     </div>
   </div>
 </section>
-<section class="section about" 
+
 
 <!-- 05 / MUSIC VIDEO -->
 <section class="section longform" id="musicvideo">
@@ -265,7 +263,7 @@ section:has(> .container:only-child:empty) {
     </div>
   </div>
 </section>
-
+<section class="section about" id="about">
 <div class="container about-inner"><div><div class="over">ABOUT THIS PORTFOLIO</div><h2 style="font-size:clamp(30px,4vw,49px);letter-spacing:-.06em;line-height:1.2">기획한 메시지를<br>실제 콘텐츠로.</h2></div><div><p class="portfolio-description">
   하이미디어 SNS 광고홍보 콘텐츠 제작 과정에서 진행한
   개인 실습 <span class="keep-word">작업물</span>을 전시합니다.
